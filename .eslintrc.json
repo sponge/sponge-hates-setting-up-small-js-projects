@@ -1,0 +1,19 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["warn", 2],
+    "semi": "warn",
+    "no-console": "off",
+    "for-direction": "off",
+    "getter-return": "off"
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "extends": "eslint:recommended"
+}
