@@ -8,7 +8,9 @@
     "semi": "warn",
     "no-console": "off",
     "for-direction": "off",
-    "getter-return": "off"
+    "getter-return": "off",
+    "no-unused-vars": ["warn", {"args": "none"}],
+    "no-var": "warn"
   },
   "env": {
     "es6": true,
